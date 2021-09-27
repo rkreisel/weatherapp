@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+h1 {
+    color: black;
+    padding: 0,10px;
+}
+.imgDiv img {
+    width: 100%;
+    border: 2px solid green;
+}
+.captionDiv {
+    text-align: center;
+    margin-top: 4px;
+}
+.imgDiv {
+    width: 350px;
+    align-items: center;
+}
+.menuDiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuDiv a {
+    text-decoration: none;
+}
+.menuSpacing {
+    padding-right: 10px;
+}
+footer {
+    border-top: 1px solid black;
+    color:steelblue;
+}
+header {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+#conditionIcon {
+    max-width: 64px;
+    max-height: 64px;
+    border: 0;
+}
+.labelLeftPad {
+    padding-left: 4px;
+}
+p .errorText {
+    font-size: larger;
+    color: red;
+}

@@ -1,0 +1,37 @@
+<! DOCTYPE html>
+<html>
+<head>
+    {{>head}}
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        {{>menu}}
+        Weather for:
+        <form>
+            <input placeholder="Enter Address">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="errMsg" class"errorText">
+        </p>
+        <div>
+            Found Location: <label id="location"></label>
+        </div>
+        <div>
+            Current Temp (C)<label id="currentTempC" class="labelLeftPad"></label>&deg;
+        </div>
+        <div>
+            Current Temp (F)<label id="currentTempF" class="labelLeftPad"></label>&deg;
+        </div>
+        <div>
+            <img id="conditionIcon" src="../img/MicroIcon.bmp">
+        </div>
+        <div>
+            <label id="conditionText"></label>
+        </div>
+    </div>  
+    {{>footer}}
+    <script src="./js/app.js"></script>
+</body>
+</html> 
+{{!-- test --}}
